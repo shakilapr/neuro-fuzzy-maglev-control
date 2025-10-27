@@ -1,0 +1,33 @@
+# MATLAB
+*.asv
+*.m~
+*.mat
+!anfis_prepared_data.mat
+
+# Data files
+dataset.csv
+*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# MEX files
+*.mex*
+
+# Simulink
+slprj/
+*.slxc
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+
+# Logs
+*.log
+
+# Backups
+*~
+*.bak
