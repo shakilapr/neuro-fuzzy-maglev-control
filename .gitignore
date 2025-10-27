@@ -1,33 +1,39 @@
-# MATLAB
+# MATLAB temporary files
 *.asv
 *.m~
-*.mat
-!anfis_prepared_data.mat
 
-# Data files
-dataset.csv
-*.csv
+# MATLAB autosaves
+*.autosave
+
+# MEX files
+*.mex*
+
+# Simulink cache
+slprj/
+*.slxc
+*.slx.original
+*.slx.autosave
 
 # OS files
 .DS_Store
 Thumbs.db
 desktop.ini
+*~
 
-# MEX files
-*.mex*
-
-# Simulink
-slprj/
-*.slxc
-
-# Python
+# Python cache
 __pycache__/
 *.py[cod]
 .Python
+*.pyc
 
 # Logs
 *.log
 
 # Backups
-*~
 *.bak
+
+# Editor files
+.vscode/
+.idea/
+
+
